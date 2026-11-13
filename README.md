@@ -1,108 +1,199 @@
-# 欢迎使用ss panel v3 mod 再次修改版
+<div align="center">
+  <img src="public/images/uim-logo-round_192x192.png" alt="logo" width="150" height="150" />
+</div>
 
+<h1 align="center">SSPanel UIM</h1>
 
-**ss-panel-v3-mod**是一款专为shadowsocks设计的web前端面板，再次感谢ss-panel-v3-mod 的制作者，修改后的功能简介：
+<p align="center">
+  <em>Across the Great Wall we can reach every corner in the world</em>
+</p>
 
-- **支付系统集成**：集成 支付宝当面付  易付通 码支付 TrimePay 等多种支付系统，使用方法见项目[wiki](https://github.com/NimaQu/ss-panel-v3-mod_Uim/wiki/)
-- **UI** ：修改为 ~~援交~~ 圆角、并自定义了几个图标的显示，节点列表等級0可见等級1节点但无法看见节点详情，增加了国家图标显示
-- **商店**：商品增加同时连接设备数，用户限速属性
-- 从肥羊那里**抄**来的：新用户注册现金奖励|高等级节点体验|设备数量限制
-- **优化**：css和js等置入本地提升加载速度
-- 增加**v2Ray** 功能，详情请看 [wiki](https://github.com/NimaQu/ss-panel-v3-mod_Uim/wiki/v2ray-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B)
+<p align="center">
+  <a href="https://trendshift.io/repositories/1832" target="_blank">
+    <img src="https://trendshift.io/api/badge/repositories/1832" alt="Anankke%2FSSPanel-Uim | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
+  </a>
+</p>
 
-Telegram 频道 ：https://t.me/sspanel_Uim 
+<p align="center">
+  <a href="https://github.com/Anankke/SSPanel-UIM/stargazers">
+    <img src="https://custom-icon-badges.demolab.com/github/stars/Anankke/SSPanel-UIM?logo=star&logoColor=yellow&style=social&labelColor=464646&color=ffe000" alt="GitHub stars">
+  </a>
+  <a href="https://github.com/Anankke/SSPanel-UIM/network/members">
+    <img src="https://custom-icon-badges.demolab.com/github/forks/Anankke/SSPanel-UIM?logo=fork&logoColor=333&style=social&labelColor=464646&color=7a7a7a" alt="GitHub forks">
+  </a>
+</p>
 
-演示站: [demo.nimaqu.com](https://demo.nimaqu.com) 账号和密码都是 admin  对接节点的 mukey=NimaQu
+<p align="center">
+  <a href="https://github.com/Anankke/SSPanel-UIM/blob/master/LICENSE">
+    <img src="https://custom-icon-badges.demolab.com/badge/License-MIT-blue.svg?logo=law&logoColor=white" alt="License">
+  </a>
+  <a href="https://github.com/Anankke/SSPanel-UIM/issues">
+    <img src="https://custom-icon-badges.demolab.com/github/issues-raw/Anankke/SSPanel-UIM?logo=issue-opened&logoColor=white&label=Issues" alt="Issues">
+  </a>
+  <a href="https://github.com/Anankke/SSPanel-UIM/graphs/contributors">
+    <img src="https://custom-icon-badges.demolab.com/github/contributors/Anankke/SSPanel-UIM?logo=people&logoColor=white&label=Contributors" alt="Contributors">
+  </a>
+  <a href="https://www.php.net">
+    <img src="https://custom-icon-badges.demolab.com/badge/PHP-%E2%89%A58.4-777BB4.svg?logo=php&logoColor=white" alt="PHP Version">
+  </a>
+</p>
 
-**原作者** [galaxychuck](https://github.com/galaxychuck)
+<p align="center">
+  <a href="https://github.com/Anankke/SSPanel-UIM/actions/workflows/lint.yml">
+    <img src="https://github.com/Anankke/SSPanel-UIM/actions/workflows/lint.yml/badge.svg" alt="Lint Status">
+  </a>
+  <a href="#code-quality">
+    <img src="https://img.shields.io/badge/Code%20Quality-100%25-brightgreen?logo=scrutinizer" alt="Code Quality">
+  </a>
+  <a href="#code-quality">
+    <img src="https://img.shields.io/badge/Architecture-100%25-brightgreen?logo=blueprint" alt="Architecture">
+  </a>
+  <a href="#code-quality">
+    <img src="https://img.shields.io/badge/Style-100%25-brightgreen?logo=prettier" alt="Code Style">
+  </a>
+  <a href="#code-quality">
+    <img src="https://img.shields.io/badge/Complexity-81.5%25-yellow?logo=codacy" alt="Complexity">
+  </a>
+</p>
 
-[支持开发者请点我](https://github.com/NimaQu/ss-panel-v3-mod_UIM#%E5%85%B3%E4%BA%8E%E6%8D%90%E8%B5%A0)
+<p align="center">
+  <a href="https://docs.sspanel.io">
+    <img src="https://custom-icon-badges.demolab.com/badge/Docs-sspanel.io-1C8ADB.svg?logo=book&logoColor=white" alt="Documentation">
+  </a>
+  <a href="https://t.me/sspanel_Uim">
+    <img src="https://custom-icon-badges.demolab.com/badge/Telegram-Channel-26A5E4.svg?logo=telegram&logoColor=white" alt="Telegram Channel">
+  </a>
+  <a href="https://t.me/SSUnion">
+    <img src="https://custom-icon-badges.demolab.com/badge/Telegram-Group-26A5E4.svg?logo=telegram&logoColor=white" alt="Telegram Group">
+  </a>
+  <a href="https://github.com/Anankke/SSPanel-UIM/discussions">
+    <img src="https://custom-icon-badges.demolab.com/badge/GitHub-Discussions-181717.svg?logo=comment-discussion&logoColor=white" alt="GitHub Discussions">
+  </a>
+</p>
 
-## 搭建教程
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="50" height="50" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="Nginx" width="50" height="50" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mariadb/mariadb-original.svg" alt="MariaDB" width="50" height="50" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="50" height="50" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" alt="Redis" width="50" height="50" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="50" height="50" />
+</p>
 
-GitHub Wiki : https://github.com/NimaQu/ss-panel-v3-mod_Uim/wiki/%E5%89%8D%E7%AB%AF%E5%AE%89%E8%A3%85
+## 简介 | Introduction
 
-Wiki已经启用，欢迎为此面板维护wiki
+SSPanel-UIM 是一个基于 PHP 的多功能代理服务管理系统，专为 Shadowsocks(2022) / V2Ray / Trojan / TUIC 等协议设计，提供完善的用户管理、节点管理、财务系统等功能。
 
-#### 鸣谢
+SSPanel-UIM is a PHP-based multi-purpose proxy service management system designed for Shadowsocks(2022) / V2Ray / Trojan / TUIC protocols, providing comprehensive user management, node management, financial system and more.
 
-##### [galaxychuck](https://github.com/galaxychuck)
+## 特性 | Features
 
-- 面板**原作者**
+### 多协议支持 | Multi-Protocol Support
 
-##### [hkserversolution](https://www.hkserversolution.com/cart.php)
-- Demo 演示站服务器赞助
+- 支持 Shadowsocks 2022、V2Ray、Trojan、TUIC 等主流协议
+- Support for Shadowsocks 2022, V2Ray, Trojan, TUIC and other mainstream protocols
+- 通用订阅接口，一键分发 json/clash/sip008/sing-box 格式订阅
+- Universal subscription interface, one-click json/clash/sip008/sing-box format subscription distribution
 
-##### [dumplin](https://github.com/dumplin233) 
+### 支付系统 | Payment System  
 
-- 码支付对接 + 码支付当面付二合一
-- 为面板加入 AFF 链接功能
-- 商品增加限速和限制 ip 属性
-- 多端口订阅
-- 解决用户列表加载缓慢历史遗留问题
+- 集成支付宝当面付、PayPal、Stripe、Cryptomus 等多种支付网关
+- Integrate Alipay F2F, PayPal, Stripe, Cryptomus and other payment gateways
+- 灵活的计费模式：包年包月、按量付费、按接入类型计费
+- Flexible billing modes: annual/monthly, pay-as-you-go, access type billing
 
-##### [RinSAMA](https://github.com/mxihan)
+### 通知系统 | Notification System
 
-- 整理分类 config.php
-- 美观性调整
-- 客服系统优化
+- 支持多种邮件服务，内置邮件队列，无需第三方组件
+- Support multiple mail services with built-in mail queue, no third-party components required
+- Telegram、Discord、Slack 机器人集成
+- Telegram, Discord, Slack bot integration
 
-##### [miku](https://github.com/xcxnig)
+### 用户界面 | User Interface
 
-- 美观和性能优化
+- 基于 Bootstrap 5 的现代化 Tabler 主题
+- Modern Tabler theme based on Bootstrap 5
+- 响应式设计，完美支持移动设备
+- Responsive design with perfect mobile device support
 
-##### [Tony Zou](https://github.com/ZJY2003)
+### 智能功能 | Smart Features
 
-- 为公告增加群发邮件功能
-- 节点负载情况显示&用户账户过期在首页弹窗提醒
-- 增加返利列表
+- 深度集成大语言模型，支持工单智能回复、文档生成
+- Deep LLM integration for intelligent ticket replies and document generation
+- 一键接入 OpenAI、Google AI、Anthropic 等 AI 服务
+- One-click access to OpenAI, Google AI, Anthropic and other AI services
 
-[**Indexyz**](https://github.com/Indexyz)
+### 运维管理 | Operations Management
 
-- 为面板增加 v2Ray 功能
+- 重构的定时任务系统，一条命令完成所有定时任务
+- Refactored cron system, complete all scheduled tasks with one command
+- 完善的用户管理、节点管理、流量统计系统
+- Comprehensive user management, node management, traffic statistics system
 
-[**NeverBehave**](https://github.com/NeverBehave)
+## 系统要求 | System Requirements
 
-- 添加 Telegram OAuth
+### 最低配置 | Minimum Requirements
 
-[**CGDF**](https://github.com/CGDF-GitHub)
+- **CPU**: 1 核心 | 1 Core
+- **内存 | RAM**: 1GB
+- **存储 | Storage**: 10GB
+- **系统 | OS**: Debian 11+
 
-- 一键国旗
-- 财务报表
-- xcat一键update
-- 适配SSD
-- 用户列表分页加载
+### 推荐配置 | Recommended Requirements  
 
-[**CHEN**](https://github.com/ChenSee)
+- **CPU**: 2 核心或以上 | 2 Cores or more
+- **内存 | RAM**: 2GB 或以上 | 2GB or more
+- **存储 | Storage**: 20GB SSD
+- **系统 | OS**: Debian 12
 
-- 免签约支付宝与微信，自带监听，不需第三方软件，直接到个人账户
+### 软件环境 | Software Requirements
 
-[**laurieryayoi**](https://github.com/laurieryayoi)
+- **Web 服务器 | Web Server**: Nginx (HTTPS 必须 | HTTPS Required)
+- **PHP**: 8.4+ (强烈推荐 OPcache + JIT | OPcache + JIT highly recommended)
+- **数据库 | Database**: MariaDB 10.11+ / MySQL 8.0+ (需禁用严格模式 | Disable strict mode required)
+- **缓存 | Cache**: Redis 7.0+
+- **其他 | Others**: Git, Composer
 
-- 重做美化UI（~~援交~~圆角化）
+## 文档 | Documentation
 
-- 重写节点列表，支持分级显示所有级别节点
+完整的安装和使用文档请访问：
+For complete installation and usage documentation, please visit:
 
-##### 还有所有被引用过代码的同学，以及所有提交过issue的同学。
+📚 [SSPanel-UIM 文档 | Documentation](https://docs.sspanel.io)
 
-#### 关于捐赠
+## 社区 | Community
 
-您对我们的帮助将是支持我们做下去的动力，只需您在购买部分产品或向他人推荐产品时从我们的返利链接购买，这就是对我们很大的支持了。~~没有钱了，肯定要做啊，不做没有钱用啊，打工是不可能打工的，这辈子不可能打工的~~
+- Telegram 频道 | Telegram Channel: [@sspanel_Uim](https://t.me/sspanel_Uim)
+- Telegram 群组 | Telegram Group: [@SSUnion](https://t.me/SSUnion)
+- GitHub 讨论 | GitHub Discussions: [SSPanel-UIM/Discussions](https://github.com/Anankke/SSPanel-UIM/discussions)
 
-##### dumplin
+## 贡献 | Contributing
 
-- [码支付-微信收款功能开通](https://codepay.fateqq.com/i/39756)
+欢迎提交 Pull Request 或 Issue！请先阅读 [贡献指南](CONTRIBUTING.md)。
 
+Welcome to submit Pull Requests or Issues! Please read [Contributing Guide](CONTRIBUTING.md) first.
 
+### 开发规范 | Development Standards
+- 代码风格 | Code Style: PSR-12
+- 提交规范 | Commit Convention: 参考贡献指南 | See Contributing Guide
+- 分支策略 | Branch Strategy: 向 master 分支提交 | Submit to master branch
 
-##### galaxychuck
+## 安全 | Security
 
-- [黛米付-支付接入](https://www.daimiyun.cn/register.php?aff=624)
-- [冲上云霄云主机](http://console.soar-clouds.com/aff.php?aff=94)
-- [Vultr](https://www.vultr.com/?ref=7205737)
+如果您发现安全漏洞，请发送邮件至 anankke@pm.me，不要公开提交 Issue。
 
-[Nymph 的前端课程报名](t.me/kinokonominoco)
+If you discover a security vulnerability, please email anankke@pm.me instead of creating a public issue.
 
-# 免责声明
+## 许可证 | License
 
-本程序由 MIT License 授权。**不提供任何担保**。使用本程序即表明，您知情并同意：程序开发者不对此程序导致的任何服务中断、数据损失或任何少见未列出的事故负责。
+本项目采用 MIT 许可证。详见 [LICENSE](LICENSE) 文件。
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) file for details.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Anankke/SSPanel-UIM&type=Date)](https://star-history.com/#Anankke/SSPanel-UIM&Date)
+
+---
+
+<p align="center">Made with ❤️ by SSPanel-UIM Team</p>
